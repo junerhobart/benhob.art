@@ -69,7 +69,7 @@ export function ContactSection() {
           Open for freelance projects, commissions, and collabs.
         </Typography>
 
-        {/* Bottom row — socials + email */}
+        
         <Box
           sx={{
             display: "flex",
@@ -102,21 +102,6 @@ export function ContactSection() {
           ))}
 
           <Box sx={{ flex: 1 }} />
-
-          <Typography
-            component="a"
-            href="mailto:benhob@email.com"
-            sx={{
-              fontSize: "0.8rem",
-              color: "rgba(237,232,227,0.35)",
-              fontFamily: "var(--font-body)",
-              letterSpacing: "0.04em",
-              "&:hover": { color: "var(--text)" },
-              transition: "color 0.2s",
-            }}
-          >
-            benhob@email.com
-          </Typography>
         </Box>
       </motion.div>
     </Box>
