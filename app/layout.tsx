@@ -19,9 +19,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "benhob — Roblox Animator",
+  title: "Ben Hobart — Roblox Animator",
   description:
-    "Portfolio of benhob, Roblox animator specializing in combat, locomotion, and cinematic sequences.",
+    "Portfolio of Ben Hobart, Roblox animator specializing in combat, locomotion, and cinematic sequences.",
 };
 
 export default function RootLayout({
