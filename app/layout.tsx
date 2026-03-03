@@ -3,6 +3,7 @@ import { Bebas_Neue, Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeRegistry } from "@/components/ThemeRegistry";
 import { Cursor } from "@/components/Cursor";
+import { Analytics } from "@vercel/analytics/next";
 
 const bebas = Bebas_Neue({
   weight: "400",
@@ -35,6 +36,7 @@ export default function RootLayout({
         <ThemeRegistry>
           <Cursor />
           {children}
+          <Analytics />
         </ThemeRegistry>
       </body>
     </html>
